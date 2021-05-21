@@ -43,7 +43,7 @@ let res =document.getElementById('result'),
                     resNumber =  parseFloat(numPart1) / parseFloat(numPart2);
                     break;
             }
-        document.getElementById('result').innerText=resNumber;
+        document.getElementById('result').innerText=resNumber.toFixed(5);
         numPart1 = 0;
         numPart2 = 0;
         resNumber = 0;
